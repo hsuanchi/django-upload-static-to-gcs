@@ -15,7 +15,7 @@ def index(request):
         form = UploadModelForm(request.POST, request.FILES)
         if form.is_valid():
             form.save()
-            return redirect("/local/uploads/")
+            return redirect("/local")
     photos = Photo.objects.all()  # 查詢所有資料
     context = {"photos": photos, "form": form}
     return render(request, "photos/index.html", context)

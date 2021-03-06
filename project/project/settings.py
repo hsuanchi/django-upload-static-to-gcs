@@ -124,3 +124,14 @@ STATIC_URL = "/static/"
 
 MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+
+
+from google.oauth2 import service_account
+
+# storage
+GS_CREDENTIALS = service_account.Credentials.from_service_account_file(
+    os.path.join(BASE_DIR, "key.json")
+)
+
+DEFAULT_FILE_STORAGE = "storages.backends.gcloud.GoogleCloudStorage"
+GS_BUCKET_NAME = "pycon2021"
