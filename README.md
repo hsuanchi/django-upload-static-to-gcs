@@ -32,9 +32,11 @@ http://127.0.0.1:8000/local/
 ### Requirement install
 
 ```
-google-cloud-storage
-django-storages
+[google-cloud-storage](https://pypi.org/project/google-cloud-storage/)
+[django-storages](https://pypi.org/project/django-storages/)
 ```
+
+
 
 ### Get Google Storage key
 申請憑證：https://console.cloud.google.com/apis/credentials
