@@ -37,12 +37,6 @@ http://127.0.0.1:8000/local/
 [django-storages](https://pypi.org/project/django-storages/)
 ```
 
-<<<<<<< HEAD
-
-
-### Get Google Storage key
-申請憑證：https://console.cloud.google.com/apis/credentials
-=======
 ### Get Google Storage credentials
 Get json key：https://console.cloud.google.com/apis/credentials
 
@@ -50,7 +44,6 @@ Get json key：https://console.cloud.google.com/apis/credentials
 ```
 $ python3 manager.py runserver
 ```
->>>>>>> 3b7780a622498cde21a5b0ef7b0c3fe585c8d682
 
 http://127.0.0.1:8000/local/
 <img src="https://github.com/hsuanchi/django-upload-static-to-gcs/blob/main/doc/google_storage.jpg">
