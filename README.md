@@ -25,7 +25,7 @@ $ pip install -r requirements.txt
 $ python3 manager.py runserver
 ```
 
-http://127.0.0.1:8000/local/
+http://127.0.0.1:8000/cloud/
 <img src="https://github.com/hsuanchi/django-upload-static-to-gcs/blob/main/doc/local folder.jpg">
 
 ## Method 2. Save image to Google Cloud Storage
